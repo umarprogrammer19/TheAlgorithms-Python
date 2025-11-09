@@ -6,7 +6,11 @@ For doctests run:
     python3 -m doctest -v astar.py
 
 For manual testing run:
-    python3 astar.py
+    python3 astar.py 
+    or
+    python astar.py
+    if you are using uv then run
+    uv run astar.py
 """
 
 import heapq
